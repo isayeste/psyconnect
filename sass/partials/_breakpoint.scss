@@ -1,0 +1,18 @@
+$breakpoints: (
+    extrapequenio: 400px,
+    muypequenio: 500px,
+    pequeno: 600px,
+    mediano: 760px,
+    grande: 990px,
+    extragrande: 1200px,
+);
+
+@function breakpoint($clave) {
+  @return map-get($breakpoints, $clave);
+}
+
+@mixin responder-a($breakpoint) {
+  @media (max-width: breakpoint($breakpoint)) {
+    @content;
+  }
+}

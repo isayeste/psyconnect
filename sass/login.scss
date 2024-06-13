@@ -1,0 +1,59 @@
+@use 'partials/_variables.scss';
+@use 'partials/_mixins.scss'; 
+@use 'partials/_breakpoint.scss';
+// .cont{
+//     display: grid;
+//     //font-family: $fuenteLetra;
+    
+//     .contenedor{
+//         // height: 100vh;
+//         // display: grid;
+//         // grid-template-rows: 1fr 10fr;
+        
+//         .contenido{
+//             // background-color: $moradoFondo;
+//             display: grid;
+//             align-items: center;
+//             justify-items: end;
+//             padding: 10%;
+//             .texto{
+//                 color: white;
+//                 text-align: end;
+                
+//                 h1{
+//                     font-size: 60px;
+//                     font-weight: bold;
+    
+//                 }
+//                 h3{
+//                     font-size: 30px;
+//                     font-weight: 100;
+//                 }
+//             }
+//             .interiorContenido{
+//                 display: grid;
+//                 gap: 100px;
+//                 grid-template-columns: repeat(2, 1fr);
+//                 .enlace{
+//                     @include boton;
+//                 }
+//                 .enlace:hover{
+//                     @include botonHover;
+//                 }
+//             }
+//         }
+           
+        
+//     }
+    
+    // .portada{
+    //     @include fondo('../imagenes/portada.jpg');
+    // }
+    
+//     footer{
+//         display: grid;
+//         text-align: center;
+//         color: white;
+//         background-color: $moradoFooter;
+//     }
+// }

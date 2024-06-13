@@ -1,0 +1,54 @@
+@use 'partials/_variables.scss';
+@use 'partials/_mixins.scss'; 
+@use 'partials/_breakpoint.scss';
+
+// .boton{
+//     @include boton(2px, 10px);
+// }
+.listados{
+    height: auto;
+    display: grid;
+    @include fondoMorado;
+    
+    .divLis{
+        display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+        justify-items: center;
+        align-items: center;
+        // background-color: aqua;
+
+        .tablaCitas{
+            background-color: white;
+            .cabeceraTabla{
+                background-color: $moradoDiv;
+            }
+            tr{
+                border: 1px solid $moradoPrincipal;
+            }
+            td{
+                padding: 20px;
+                
+            }
+            .boton{
+                @include boton(2px, 10px);
+            }
+            .boton:hover{
+                @include botonHover;
+            }
+        }
+    }
+    .divBtn{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding: 50px;
+        .boton{
+            @include boton(20px, 30px);
+        }
+        .boton:hover{
+            @include botonHover;
+        }
+        
+    }
+}

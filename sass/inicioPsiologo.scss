@@ -1,0 +1,34 @@
+.inicioPsicologo{
+    // @include fondo('../imagenes/inicioPaciente.jpg');
+    @include fondoMorado;
+}
+.contenidoPsi{
+    // background-color: $moradoFondo;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10%;
+    
+    // .interiorContenidoPsi{
+        .botones{
+            display: grid;
+            gap: 100px;
+            grid-template-columns: repeat(2, 1fr);
+
+            .boton{
+                @include boton(35px, 40px);
+            }
+            .boton:hover{
+                @include botonHover;
+            }
+        }
+        
+
+        // .enlace{
+        //     @include boton(22px, 10px);
+        // }
+        // .enlace:hover{
+        //     @include botonHover;
+        // }
+    // }
+}

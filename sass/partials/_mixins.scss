@@ -1,0 +1,118 @@
+@import 'variables.scss';
+
+@mixin boton($p1, $p2){
+    padding: $p1 $p2;
+    border: 0.5px solid $moradoPrincipal;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: $moradoPrincipal;
+    text-decoration: none;
+}
+
+@mixin botonHover{
+    background-color: $moradoHover;
+    border: 0.5px solid white;
+    background-color: $moradoPrincipal;
+    color: white;
+}
+
+@mixin fondo($url){
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin fondoMorado{
+  background: rgb(255,255,255);
+  background: linear-gradient(352deg, rgba(255,255,255,1) 0%, $moradoDiv 44%, $moradoPrincipal2 54%, $moradoDiv 64%, rgba(255,255,255,1) 100%);
+}
+
+@mixin distribucionPortada ($altura, $ancho){
+    //background-color: aqua;
+    height: $altura;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    .texto{
+        //background-color: aqua;
+        display: grid;
+        justify-items: center;
+        width: $ancho     
+    }
+    p{
+        text-align: center;
+    }
+}
+
+@mixin bordeTop{
+    border-top: 2px solid;
+    animation: intercambioColores 5s infinite linear;
+    transition: filter 0.5s ease;
+    @keyframes intercambioColores {
+        0% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+        25% {
+            border-image: linear-gradient(to bottom, $moradoH3, white, $moradoTabla, $moradoPrincipal) 1;
+        }
+        50% {
+          border-image: linear-gradient(to bottom, white, $moradoTabla, $moradoPrincipal, $moradoH3) 1;
+        }
+        75% {
+            border-image: linear-gradient(to bottom, $moradoTabla, $moradoPrincipal, $moradoH3, white) 1;
+        }
+        100% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+      } 
+}
+
+@mixin bordeBottom{
+    border-bottom: 2px solid;
+    animation: intercambioColores 5s infinite linear;
+    transition: filter 0.5s ease;
+    @keyframes intercambioColores {
+        0% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+        25% {
+            border-image: linear-gradient(to bottom, $moradoH3, white, $moradoTabla, $moradoPrincipal) 1;
+        }
+        50% {
+          border-image: linear-gradient(to bottom, white, $moradoTabla, $moradoPrincipal, $moradoH3) 1;
+        }
+        75% {
+            border-image: linear-gradient(to bottom, $moradoTabla, $moradoPrincipal, $moradoH3, white) 1;
+        }
+        100% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+      } 
+}
+
+@mixin bordeAnimado{
+    border: 2px solid;
+    animation: intercambioColores 5s infinite linear;
+    transition: filter 0.5s ease;
+    @keyframes intercambioColores {
+        0% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+        25% {
+            border-image: linear-gradient(to bottom, $moradoH3, white, $moradoTabla, $moradoPrincipal) 1;
+        }
+        50% {
+          border-image: linear-gradient(to bottom, white, $moradoTabla, $moradoPrincipal, $moradoH3) 1;
+        }
+        75% {
+            border-image: linear-gradient(to bottom, $moradoTabla, $moradoPrincipal, $moradoH3, white) 1;
+        }
+        100% {
+          border-image: linear-gradient(to bottom, $moradoPrincipal, $moradoH3, white, $moradoTabla) 1;
+        }
+      } 
+}

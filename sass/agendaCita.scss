@@ -1,0 +1,59 @@
+@use 'partials/_variables.scss';
+@use 'partials/_mixins.scss'; 
+@use 'partials/_breakpoint.scss';
+
+.contenedorPadre{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 100vh;
+    .agendarCita{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        padding: 50px;
+        height: 700px;
+        gap: 20px;
+        // background-color: $moradoDiv;
+        background: rgb(255,255,255);
+        background: linear-gradient(352deg, rgba(255,255,255,1) 0%, $moradoDiv 54%, rgba(255,255,255,1) 100%);
+    
+        .fotoAgendaCita{
+            @include fondo('../imagenes/portada.jpg');
+            border-radius: 20px;
+            box-shadow: 4px 7px 5px 0px rgba(0,0,0,0.2);
+            
+        }
+        .contenido{
+            display: grid;
+            align-items: center;
+            justify-items: end;
+            padding: 10%;
+            border-radius: 20px;
+            box-shadow: 4px 7px 5px 0px rgba(0,0,0,0.2);
+            background: rgb(255,255,255);
+            background: linear-gradient(349deg, rgba(255,255,255,1) 0%, $moradoDiv 51%, $moradoDiv 72%, rgba(255,255,255,1) 100%);
+            .texto{
+                text-align: end;
+                h1{
+                    text-align: end;
+                    // align-items: end;
+                }
+                h3{
+                    text-align: end;
+                }
+            }
+
+            .interiorContenido{
+                display: grid;
+                gap: 100px;
+                grid-template-columns: repeat(2, 1fr);
+                .enlace{
+                    @include boton(25px, 40px);
+                }
+                .enlace:hover{
+                    @include botonHover;
+                }
+            }
+
+        }
+    }
+}   

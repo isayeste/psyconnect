@@ -1,0 +1,87 @@
+.inicioPaciente{
+    @include fondoMorado;
+    display: grid;
+    padding: 80px;
+}
+
+
+.contenedorCalendario{
+    padding: 60px;
+    .h2{
+        display: grid;
+        justify-items: center;
+        color: $moradoTabla;
+    }
+
+    .leyenda{
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 50px;
+        // display: grid;
+        // grid-template-columns: 1fr 8fr;
+        align-items: center;
+        height: 10px;
+        .colorLeyenda{
+            height: 20px; 
+            background-color: #ACF2D4; 
+            border: 1px, solid, black;
+            width: 20px;
+        }
+        .textoLeyenda{
+            display: flex;
+            align-items: center;
+            height: 20px;
+        }
+
+    }
+
+    .botones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 30px;
+
+        div{
+
+            .boton{
+                @include boton(2px, 3px);
+                // background-color: $moradoTabla;
+            }
+            .boton:hover{
+                @include botonHover;
+            }
+            
+        }
+        .final{
+            display: flex;
+            justify-content: end;
+        }
+        
+    }
+    .horas{
+        display: grid;
+        
+        justify-items: center;
+        h3{
+            color: $moradoTabla;
+        }
+        .horasDisponibles{
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 5px;
+            div{
+                border: 1px solid $moradoTabla;
+                padding: 10px;
+                cursor: pointer;
+            }
+            div:hover{
+                background-color: $moradoPrincipal;
+                color: white;
+            }
+            
+        }
+    }
+    
+
+}
+
+

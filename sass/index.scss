@@ -1,0 +1,32 @@
+@import 'partials/_breakpoint';
+@import 'partials/_mixins';
+@import 'partials/_variables';
+@import 'login.scss';
+@import 'calendar.scss';
+@import 'inicioPaciente.scss';
+@import 'formularioHorario.scss';
+@import 'inicioPsiologo.scss';
+@import 'header.scss';
+@import 'preInicioPacientes.scss';
+@import 'modal.scss';
+@import 'portada.scss';
+@import 'footer.scss';
+@import 'agendaCita.scss';
+@import 'listadoCitas.scss';
+
+body{
+    font-family: $fuenteLetra;
+    h1{
+        text-align: center;
+        color: $moradoFooter;
+    }
+    h2{
+        color: $moradoPrincipal;
+    }
+    h3{
+        color: $moradoH3;
+    }
+    p{
+        font-size: 18px;
+    }
+}

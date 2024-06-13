@@ -1,0 +1,45 @@
+.preInicio{
+    // @include fondo('../imagenes/preInicio.jpg');
+    @include fondoMorado;
+    display: grid;
+    // justify-items: center;
+    align-items: center;
+
+    .contFormularios{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        .formulario{
+            // background-color: $negroFondo;
+            height: 800px;
+            width: 600px;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            @include bordeAnimado;
+            // height: auto;
+            padding: 100px;
+            
+            
+            form{
+                // background-color: aqua;
+                // padding: 50px;
+                
+                .boton{
+                    @include boton(2px, 10px);
+                }
+
+                .boton:hover{
+                    @include botonHover;
+                }
+            }
+        }
+        
+
+
+    }
+
+}

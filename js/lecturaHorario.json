@@ -1,0 +1,488 @@
+[
+    {
+        "idHorario": 1,
+        "fechaInicio": "2024-06-09 04:02:00",
+        "fechaFin": "2024-06-09 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 2,
+        "fechaInicio": "2024-06-09 05:02:00",
+        "fechaFin": "2024-06-09 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 3,
+        "fechaInicio": "2024-06-09 06:02:00",
+        "fechaFin": "2024-06-09 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 4,
+        "fechaInicio": "2024-06-10 04:02:00",
+        "fechaFin": "2024-06-10 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 5,
+        "fechaInicio": "2024-06-10 05:02:00",
+        "fechaFin": "2024-06-10 06:01:00",
+        "estado": "espera"
+    },
+    {
+        "idHorario": 6,
+        "fechaInicio": "2024-06-10 06:02:00",
+        "fechaFin": "2024-06-10 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 7,
+        "fechaInicio": "2024-06-16 04:02:00",
+        "fechaFin": "2024-06-16 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 8,
+        "fechaInicio": "2024-06-16 05:02:00",
+        "fechaFin": "2024-06-16 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 9,
+        "fechaInicio": "2024-06-16 06:02:00",
+        "fechaFin": "2024-06-16 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 10,
+        "fechaInicio": "2024-06-17 04:02:00",
+        "fechaFin": "2024-06-17 05:01:00",
+        "estado": "ocupado"
+    },
+    {
+        "idHorario": 11,
+        "fechaInicio": "2024-06-17 05:02:00",
+        "fechaFin": "2024-06-17 06:01:00",
+        "estado": "espera"
+    },
+    {
+        "idHorario": 12,
+        "fechaInicio": "2024-06-17 06:02:00",
+        "fechaFin": "2024-06-17 07:01:00",
+        "estado": "ocupado"
+    },
+    {
+        "idHorario": 13,
+        "fechaInicio": "2024-06-23 04:02:00",
+        "fechaFin": "2024-06-23 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 14,
+        "fechaInicio": "2024-06-23 05:02:00",
+        "fechaFin": "2024-06-23 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 15,
+        "fechaInicio": "2024-06-23 06:02:00",
+        "fechaFin": "2024-06-23 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 16,
+        "fechaInicio": "2024-06-24 04:02:00",
+        "fechaFin": "2024-06-24 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 17,
+        "fechaInicio": "2024-06-24 05:02:00",
+        "fechaFin": "2024-06-24 06:01:00",
+        "estado": "ocupado"
+    },
+    {
+        "idHorario": 18,
+        "fechaInicio": "2024-06-24 06:02:00",
+        "fechaFin": "2024-06-24 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 19,
+        "fechaInicio": "2024-06-30 04:02:00",
+        "fechaFin": "2024-06-30 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 20,
+        "fechaInicio": "2024-06-30 05:02:00",
+        "fechaFin": "2024-06-30 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 21,
+        "fechaInicio": "2024-06-30 06:02:00",
+        "fechaFin": "2024-06-30 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 22,
+        "fechaInicio": "2024-07-01 04:02:00",
+        "fechaFin": "2024-07-01 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 23,
+        "fechaInicio": "2024-07-01 05:02:00",
+        "fechaFin": "2024-07-01 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 24,
+        "fechaInicio": "2024-07-01 06:02:00",
+        "fechaFin": "2024-07-01 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 25,
+        "fechaInicio": "2024-07-07 04:02:00",
+        "fechaFin": "2024-07-07 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 26,
+        "fechaInicio": "2024-07-07 05:02:00",
+        "fechaFin": "2024-07-07 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 27,
+        "fechaInicio": "2024-07-07 06:02:00",
+        "fechaFin": "2024-07-07 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 28,
+        "fechaInicio": "2024-07-08 04:02:00",
+        "fechaFin": "2024-07-08 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 29,
+        "fechaInicio": "2024-07-08 05:02:00",
+        "fechaFin": "2024-07-08 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 30,
+        "fechaInicio": "2024-07-08 06:02:00",
+        "fechaFin": "2024-07-08 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 31,
+        "fechaInicio": "2024-07-14 04:02:00",
+        "fechaFin": "2024-07-14 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 32,
+        "fechaInicio": "2024-07-14 05:02:00",
+        "fechaFin": "2024-07-14 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 33,
+        "fechaInicio": "2024-07-14 06:02:00",
+        "fechaFin": "2024-07-14 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 34,
+        "fechaInicio": "2024-07-15 04:02:00",
+        "fechaFin": "2024-07-15 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 35,
+        "fechaInicio": "2024-07-15 05:02:00",
+        "fechaFin": "2024-07-15 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 36,
+        "fechaInicio": "2024-07-15 06:02:00",
+        "fechaFin": "2024-07-15 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 37,
+        "fechaInicio": "2024-07-21 04:02:00",
+        "fechaFin": "2024-07-21 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 38,
+        "fechaInicio": "2024-07-21 05:02:00",
+        "fechaFin": "2024-07-21 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 39,
+        "fechaInicio": "2024-07-21 06:02:00",
+        "fechaFin": "2024-07-21 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 40,
+        "fechaInicio": "2024-07-22 04:02:00",
+        "fechaFin": "2024-07-22 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 41,
+        "fechaInicio": "2024-07-22 05:02:00",
+        "fechaFin": "2024-07-22 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 42,
+        "fechaInicio": "2024-07-22 06:02:00",
+        "fechaFin": "2024-07-22 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 43,
+        "fechaInicio": "2024-07-28 04:02:00",
+        "fechaFin": "2024-07-28 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 44,
+        "fechaInicio": "2024-07-28 05:02:00",
+        "fechaFin": "2024-07-28 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 45,
+        "fechaInicio": "2024-07-28 06:02:00",
+        "fechaFin": "2024-07-28 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 46,
+        "fechaInicio": "2024-07-29 04:02:00",
+        "fechaFin": "2024-07-29 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 47,
+        "fechaInicio": "2024-07-29 05:02:00",
+        "fechaFin": "2024-07-29 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 48,
+        "fechaInicio": "2024-07-29 06:02:00",
+        "fechaFin": "2024-07-29 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 49,
+        "fechaInicio": "2024-08-04 04:02:00",
+        "fechaFin": "2024-08-04 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 50,
+        "fechaInicio": "2024-08-04 05:02:00",
+        "fechaFin": "2024-08-04 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 51,
+        "fechaInicio": "2024-08-04 06:02:00",
+        "fechaFin": "2024-08-04 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 52,
+        "fechaInicio": "2024-08-05 04:02:00",
+        "fechaFin": "2024-08-05 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 53,
+        "fechaInicio": "2024-08-05 05:02:00",
+        "fechaFin": "2024-08-05 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 54,
+        "fechaInicio": "2024-08-05 06:02:00",
+        "fechaFin": "2024-08-05 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 55,
+        "fechaInicio": "2024-08-11 04:02:00",
+        "fechaFin": "2024-08-11 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 56,
+        "fechaInicio": "2024-08-11 05:02:00",
+        "fechaFin": "2024-08-11 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 57,
+        "fechaInicio": "2024-08-11 06:02:00",
+        "fechaFin": "2024-08-11 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 58,
+        "fechaInicio": "2024-08-12 04:02:00",
+        "fechaFin": "2024-08-12 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 59,
+        "fechaInicio": "2024-08-12 05:02:00",
+        "fechaFin": "2024-08-12 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 60,
+        "fechaInicio": "2024-08-12 06:02:00",
+        "fechaFin": "2024-08-12 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 61,
+        "fechaInicio": "2024-08-18 04:02:00",
+        "fechaFin": "2024-08-18 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 62,
+        "fechaInicio": "2024-08-18 05:02:00",
+        "fechaFin": "2024-08-18 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 63,
+        "fechaInicio": "2024-08-18 06:02:00",
+        "fechaFin": "2024-08-18 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 64,
+        "fechaInicio": "2024-08-19 04:02:00",
+        "fechaFin": "2024-08-19 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 65,
+        "fechaInicio": "2024-08-19 05:02:00",
+        "fechaFin": "2024-08-19 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 66,
+        "fechaInicio": "2024-08-19 06:02:00",
+        "fechaFin": "2024-08-19 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 67,
+        "fechaInicio": "2024-08-25 04:02:00",
+        "fechaFin": "2024-08-25 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 68,
+        "fechaInicio": "2024-08-25 05:02:00",
+        "fechaFin": "2024-08-25 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 69,
+        "fechaInicio": "2024-08-25 06:02:00",
+        "fechaFin": "2024-08-25 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 70,
+        "fechaInicio": "2024-08-26 04:02:00",
+        "fechaFin": "2024-08-26 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 71,
+        "fechaInicio": "2024-08-26 05:02:00",
+        "fechaFin": "2024-08-26 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 72,
+        "fechaInicio": "2024-08-26 06:02:00",
+        "fechaFin": "2024-08-26 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 73,
+        "fechaInicio": "2024-09-01 04:02:00",
+        "fechaFin": "2024-09-01 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 74,
+        "fechaInicio": "2024-09-01 05:02:00",
+        "fechaFin": "2024-09-01 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 75,
+        "fechaInicio": "2024-09-01 06:02:00",
+        "fechaFin": "2024-09-01 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 76,
+        "fechaInicio": "2024-09-02 04:02:00",
+        "fechaFin": "2024-09-02 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 77,
+        "fechaInicio": "2024-09-02 05:02:00",
+        "fechaFin": "2024-09-02 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 78,
+        "fechaInicio": "2024-09-02 06:02:00",
+        "fechaFin": "2024-09-02 07:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 79,
+        "fechaInicio": "2024-09-08 04:02:00",
+        "fechaFin": "2024-09-08 05:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 80,
+        "fechaInicio": "2024-09-08 05:02:00",
+        "fechaFin": "2024-09-08 06:01:00",
+        "estado": "libre"
+    },
+    {
+        "idHorario": 81,
+        "fechaInicio": "2024-09-08 06:02:00",
+        "fechaFin": "2024-09-08 07:01:00",
+        "estado": "libre"
+    }
+]

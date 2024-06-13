@@ -1,0 +1,73 @@
+@use 'partials/_variables.scss';
+@use 'partials/_mixins.scss'; 
+@use 'partials/_breakpoint.scss';
+
+.superior{
+            background-color: $moradoFondo;
+            // border-bottom: 1px solid white;
+    
+            .contSup{
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                align-items: center;
+                img{
+                    margin: 20px 50px;
+                    width: 130px;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+                    animation: girar 8s linear infinite;
+                }
+                @keyframes girar {
+                    0% {
+                        transform: rotateY(0deg);
+                    }
+                    25% {
+                        transform: rotateY(180deg);
+                    }
+                    50% {
+                        transform: rotateY(0deg);
+                    }
+                    75% {
+                        transform: rotateY(0deg);
+                    }
+                    100% {
+                        transform: rotateY(0deg);
+                    }
+                }
+                a{
+                    justify-self: flex-end;
+                    padding-right: 50px;
+                }
+            }
+            
+    
+        }
+
+
+        .navbar {
+            // background-color: $moradoFondo;
+            border-bottom: 1px solid $moradoPrincipal;
+            
+        
+            .logo {
+                margin: 20px 50px;
+                width: 200px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+                // animation: girar 10s linear infinite;
+            }
+        
+            .navbar-toggler {
+                border-color: $moradoPrincipal;
+        
+                .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128,0,128, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+                }
+            }
+        
+            a {
+                color: $moradoPrincipal;
+            }
+        
+            a:hover {
+                color: $moradoFooter;
+            }
+        }

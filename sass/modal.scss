@@ -1,0 +1,76 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;  
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+
+    .modal-content {
+        background-color: #e3e0e8;
+        margin: 5% auto; 
+        padding: 20px;
+        height: auto; /* Cambiado a 'auto' */
+        width: 80%; 
+        display: grid;
+        grid-template-columns: 1fr; /* Cambiado a una sola columna */
+        align-items: center;
+
+        /* Estilo para el título */
+        #modalText {
+            font-family: $fuenteLetra;
+            font-weight: bold;
+            text-align: center; /* Centrar el texto */
+            margin-bottom: 20px; /* Añadir espacio inferior */
+        }
+
+        /* Estilos para el formulario */
+        .formularioModal {
+            display: grid;
+            grid-template-columns: max-content 1fr; /* Alineado a la izquierda */
+            align-items: center;
+            gap: 10px; /* Espacio entre elementos */
+
+            label {
+                font-family: $fuenteLetra;
+                display: inline-flex; /* Alinear radio buttons al lado de las etiquetas */
+                align-items: center; /* Centrar verticalmente */
+            }
+
+            textarea {
+                width: 100%;
+                resize: vertical; /* Permitir redimensionamiento vertical */
+            }
+
+            input[type="radio"] {
+                margin-right: 5px; /* Espacio entre radio button y label */
+                cursor: pointer;
+            }
+        }
+
+        /* Estilos para el pie de página modal */
+        .botonesModal {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Botones uno a cada lado */
+            gap: 10px; /* Espacio entre botones */
+            margin-top: 20px; /* Añadir espacio superior */
+        }
+
+        .boton {
+            font-family: $fuenteLetra;
+            padding: 10px 20px;
+            background-color: #9796AD;
+            border: 1px solid #9796AD;
+            color: white;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            background-color: #B4AFC8;
+            border: 1px solid black;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.calendar {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    th, td {
+        border: 1px solid $moradoTabla;
+        text-align: center;
+        padding: 8px;
+    }
+
+    th {
+        background-color: $moradoTabla;
+        color: white;
+    }
+
+    td {
+        cursor: pointer;
+    }
+}
